@@ -20,4 +20,9 @@
     <string name="athlete_age">Age</string>
     <string name="athelete_modality">Modality</string>
     <string name="athelete_bio">Bio</string>
+    <string name="title_activity_transmissions">Map</string>
+    <string name="transmission_place">Place</string>
+    <string name="transmission_description">Description</string>
+    <string name="transmission_date">Date</string>
+    <string name="title_activity_map">Map</string>
 </resources>

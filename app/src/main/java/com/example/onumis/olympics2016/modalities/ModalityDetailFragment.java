@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.onumis.olympics2016.R;
-import com.example.onumis.olympics2016.dummy.DummyContent;
 
 /**
  * A fragment representing a single Modality detail screen.
