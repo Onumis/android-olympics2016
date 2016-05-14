@@ -1,0 +1,1 @@
+web: cd olympics-2016-api && bundle exec rails server -p $PORT
