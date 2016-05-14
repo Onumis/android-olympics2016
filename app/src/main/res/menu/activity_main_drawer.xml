@@ -16,7 +16,8 @@
             android:title="@string/transmission_pubs" />
     </group>
 
-    <item android:title="Favoritos">
+    <item android:title="Favoritos"
+        android:id="@+id/favorites">
         <menu>
             <item android:title="Usain Bolt" />
             <item android:title="Michael Phelps" />
