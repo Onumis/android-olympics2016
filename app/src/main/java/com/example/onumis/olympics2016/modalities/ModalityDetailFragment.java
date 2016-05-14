@@ -28,7 +28,7 @@ public class ModalityDetailFragment extends Fragment {
     /**
      * The dummy content this fragment is presenting.
      */
-    private DummyContent.DummyItem mItem;
+    private ModalitiesContent.Modality mItem;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -45,12 +45,13 @@ public class ModalityDetailFragment extends Fragment {
             // Load the dummy content specified by the fragment
             // arguments. In a real-world scenario, use a Loader
             // to load content from a content provider.
-            mItem = DummyContent.ITEM_MAP.get(getArguments().getString(ARG_ITEM_ID));
+            String id = getArguments().getString(ARG_ITEM_ID);
+            mItem = ModalitiesContent.ITEM_MAP.get(id);
 
             Activity activity = this.getActivity();
             CollapsingToolbarLayout appBarLayout = (CollapsingToolbarLayout) activity.findViewById(R.id.toolbar_layout);
             if (appBarLayout != null) {
-                appBarLayout.setTitle(mItem.content);
+                appBarLayout.setTitle(mItem.name);
             }
         }
     }
