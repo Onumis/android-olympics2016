@@ -1,14 +1,9 @@
-/**************************************************************************************
+package com.example.onumis.olympics2016.webservice; /**************************************************************************************
  *Projeto: FabricaNet
  *Descricao: classe responsavel pelo gerenciamento de resolucao de video e componentes
  *Autor: Silvano Malfatti
  * Local : Palmas-TO
  **************************************************************************************/
-
-//Pacote de recursos
-package conexao;
-
-//Pacotes utilizados
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
