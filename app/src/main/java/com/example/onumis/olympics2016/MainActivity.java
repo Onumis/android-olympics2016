@@ -2,6 +2,7 @@ package com.example.onumis.olympics2016;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -44,6 +45,18 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
     }
+
+    private void leituraFavoritos() {
+        SharedPreferences sf = getSharedPreferences("OLYMPICS2016", MODE_PRIVATE);
+
+        //carrega os dados armazenados no BD
+        if (sf.contains("fav")) {
+
+//
+
+        }
+    }
+
 
     @Override
     public void onBackPressed() {
