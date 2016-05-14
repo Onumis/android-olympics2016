@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  place: MyString
+  description: MyText
+  date: 2016-05-14 05:10:29
+  lat: MyString
+  lon: MyString
+
+two:
+  place: MyString
+  description: MyText
+  date: 2016-05-14 05:10:29
+  lat: MyString
+  lon: MyString
