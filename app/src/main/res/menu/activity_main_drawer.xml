@@ -16,4 +16,17 @@
             android:title="@string/transmission_pubs" />
     </group>
 
+    <item android:title="Favoritos">
+        <menu>
+            <item android:title="Usain Bolt" />
+            <item android:title="Michael Phelps" />
+            <item android:title="Michael Phelps" />
+            <item android:title="Michael Phelps" />
+            <item android:title="Michael Phelps" />
+            <item android:title="Michael Phelps" />
+            <item android:title="Michael Phelps" />
+            <item android:title="Michael Phelps" />
+        </menu>
+    </item>
+
 </menu>
