@@ -5,4 +5,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="news">News</string>
+    <string name="modalities">Modalities</string>
+    <string name="athletes">Athletes</string>
+    <string name="transmission_pubs">Transmission Pubs</string>
 </resources>

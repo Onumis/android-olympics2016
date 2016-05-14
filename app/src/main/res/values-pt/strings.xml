@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="modalities">Modalidades</string>
+    <string name="athletes">Atletas</string>
+    <string name="transmission_pubs">Locais de transmissão</string>
+    <string name="action_settings">Definições</string>
+    <string name="app_name">Olimpiadas 2016</string>
+    <string name="news">Noticias</string>
+</resources>
