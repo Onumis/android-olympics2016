@@ -24,4 +24,4 @@ test:
 
 production:
   <<: *default
-  database: olympics-2016-api-production
+  url: <%= ENV['DATABASE_URL'] %>
