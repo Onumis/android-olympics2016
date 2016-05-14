@@ -13,7 +13,6 @@ import android.view.MenuItem;
 
 import com.example.onumis.olympics2016.athletes.AthleteListActivity;
 import com.example.onumis.olympics2016.modalities.ModalityListActivity;
-import com.example.onumis.olympics2016.transmissions.TransmissionListActivity;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -82,7 +81,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_athletes) {
             startActivity(new Intent(getApplicationContext(), AthleteListActivity.class));
         } else if (id == R.id.nav_transmission) {
-            startActivity(new Intent(getApplicationContext(), TransmissionListActivity.class));
+            startActivity(new Intent(getApplicationContext(), TransmissionsActivity.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

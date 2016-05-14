@@ -9,4 +9,7 @@
     <string name="athlete_age">Idade</string>
     <string name="athelete_modality">Modalidade</string>
     <string name="athelete_bio">Bio</string>
+    <string name="transmission_place">Place</string>
+    <string name="transmission_description">Description</string>
+    <string name="transmission_date">Date</string>
 </resources>
