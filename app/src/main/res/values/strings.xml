@@ -9,4 +9,12 @@
     <string name="modalities">Modalities</string>
     <string name="athletes">Athletes</string>
     <string name="transmission_pubs">Transmission Pubs</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_modality_list">Modalities</string>
+    <string name="title_modality_detail">Modality Detail</string>
+    <string name="title_athlete_list">Athletes</string>
+    <string name="title_athlete_detail">Athlete Detail</string>
+    <string name="title_transmission_list">Transmissions</string>
+    <string name="title_transmission_detail">Transmission Detail</string>
+    <string name="title_activity_news">News</string>
 </resources>

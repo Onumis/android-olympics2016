@@ -18,6 +18,78 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.onumis.olympics2016.MainActivity" />
+        </activity>
+        <activity
+            android:name=".modalities.ModalityListActivity"
+            android:label="@string/title_modality_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.onumis.olympics2016.MainActivity" />
+        </activity>
+        <activity
+            android:name=".modalities.ModalityDetailActivity"
+            android:label="@string/title_modality_detail"
+            android:parentActivityName=".modalities.ModalityListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".modalities.ModalityListActivity" />
+        </activity>
+        <activity
+            android:name=".athletes.AthleteListActivity"
+            android:label="@string/title_athlete_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.onumis.olympics2016.MainActivity" />
+        </activity>
+        <activity
+            android:name=".athletes.AthleteDetailActivity"
+            android:label="@string/title_athlete_detail"
+            android:parentActivityName=".athletes.AthleteListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".athletes.AthleteListActivity" />
+        </activity>
+        <activity
+            android:name=".transmissions.TransmissionListActivity"
+            android:label="@string/title_transmission_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.onumis.olympics2016.MainActivity" />
+        </activity>
+        <activity
+            android:name=".transmissions.TransmissionDetailActivity"
+            android:label="@string/title_transmission_detail"
+            android:parentActivityName=".transmissions.TransmissionListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".transmissions.TransmissionListActivity" />
+        </activity>
+        <activity
+            android:name=".news.NewsActivity"
+            android:label="@string/title_activity_news"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.onumis.olympics2016.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
