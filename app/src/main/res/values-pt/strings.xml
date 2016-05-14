@@ -6,4 +6,7 @@
     <string name="action_settings">Definições</string>
     <string name="app_name">Olimpiadas 2016</string>
     <string name="news">Noticias</string>
+    <string name="athlete_age">Idade</string>
+    <string name="athelete_modality">Modalidade</string>
+    <string name="athelete_bio">Bio</string>
 </resources>

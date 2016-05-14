@@ -1,8 +1,6 @@
 package com.example.onumis.olympics2016.modalities;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**

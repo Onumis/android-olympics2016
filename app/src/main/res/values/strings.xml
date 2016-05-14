@@ -17,4 +17,7 @@
     <string name="title_transmission_list">Transmissions</string>
     <string name="title_transmission_detail">Transmission Detail</string>
     <string name="title_activity_news">News</string>
+    <string name="athlete_age">Age</string>
+    <string name="athelete_modality">Modality</string>
+    <string name="athelete_bio">Bio</string>
 </resources>
